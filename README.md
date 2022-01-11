@@ -8,7 +8,7 @@
 Make sure `polybar-lambda.py` is executable
 
 ``` bash
-chmod +x polybar-speedtest
+chmod +x polybar-lambda.py
 ```
 
 Use it in your polybar `config` as
