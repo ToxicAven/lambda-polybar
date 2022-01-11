@@ -1,0 +1,13 @@
+{
+  "name": "PolybarLink",
+  "version": "1.0",
+  "authors": [
+    "ToxicAven"
+  ],
+  "description": "Provides a polybar module for displaying data.",
+  "url": "",
+  "min_api_version": "2.05.01",
+  "required_plugins": [],
+  "main_class": "dev.toxicaven.PolybarPlugin",
+  "hot_reload": true
+}
