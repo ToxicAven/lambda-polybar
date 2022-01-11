@@ -136,7 +136,6 @@ internal object PolybarLink: PluginModule(
     private fun triggerSocket() {
         try {
         val socket = Socket("localhost", 46721)
-        println("Connected!")
         val outputStream: OutputStream = socket.getOutputStream()
         val dataOutputStream = DataOutputStream(outputStream)
 
@@ -145,9 +144,6 @@ internal object PolybarLink: PluginModule(
         dataOutputStream.flush() // send the message
 
         dataOutputStream.close() // close the output stream when we're done
-
-
-        println("Closing socket.")
         socket.close()
         } catch (ignored: Exception) {}
     }
