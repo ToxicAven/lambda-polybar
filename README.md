@@ -14,7 +14,7 @@ chmod +x polybar-lambda.py
 Use it in your polybar `config` as
 
 ``` ini
-[module/speedtest]
+[module/lambda]
 type = custom/script
 exec = "/path/to/polybar-lambda.py"
 ```
